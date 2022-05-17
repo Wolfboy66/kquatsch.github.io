@@ -1,0 +1,40 @@
+body {
+    background-color: #d3d3d3;
+}
+#canvasSize {
+    width: 10%;
+}
+
+.slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10%;
+    height: 10px;
+    border-radius: 10px;
+    background: #3f3d3d;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 10px;
+    border-radius: 50%;
+    height: 10px;
+    background: #263557;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 10px;
+    border-radius: 50%;
+    height: 10px;
+    background: #263557;
+    cursor: pointer;
+  }
